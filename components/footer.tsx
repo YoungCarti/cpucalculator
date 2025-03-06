@@ -15,13 +15,13 @@ export function Footer() {
             © {currentYear} CPU Scheduling Calculator. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
-            Created by <span className="font-medium text-foreground">Your Name</span>
+            Created by <span className="font-medium text-foreground">Saabiresh</span>
           </p>
         </div>
 
         <div className="flex items-center gap-4">
           <Button variant="outline" size="icon" asChild>
-            <Link href="https://github.com/yourusername/cpu-scheduler" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/YoungCarti/cpucalculator" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub Repository</span>
             </Link>
@@ -30,7 +30,7 @@ export function Footer() {
           <Button className="flex items-center gap-2" asChild>
             <Link href="#" id="donation-link" target="_blank" rel="noopener noreferrer">
               <Heart className="h-4 w-4" />
-              <span>Support This Project</span>
+              <span>Feedback & Support This Project</span>
             </Link>
           </Button>
         </div>
